@@ -8,7 +8,6 @@ A list of ip addresses can be obtained with MASSCAN:
 ```sudo masscan 0.0.0.0/0 -oL scanned.txt --max-rate 10000 -p 25565 --exclude 255.255.255.255```  
 ```cat scanned.txt | awk '{print $3}' > addresses.txt```  
 
-![Alt text](prev.png?raw=true "Preview")  
 
 ## Compilation
 ```$ make```
